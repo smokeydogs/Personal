@@ -1,0 +1,35 @@
+{
+  "header": {
+    "master": "[role='banner']",
+    "card_category": "Card Category",
+    "card_issuer": "Card Issuer",
+    "credit_range": "Credit Range",
+    "resources": "Resources"
+  },
+  "main": {
+    "get_recommendations": "#flow_button"
+  },
+  "card_category": {
+    "best_credit_cards": "Best Credit Cards",
+    "card_list": ".topCardsFiltersList"
+  },
+  "score_range": {
+    "master": ".cardFinder__tabContainer",
+    "excellent": "[for='excellent']",
+    "good": "[for='good']",
+    "fair": "[for='fair']",
+    "needs_work": "[for='bad']",
+    "limited": "[for='limited']"
+  },
+  "quiz_range": {
+    "excellent": "[for='excellent']",
+    "good": "[for='good']",
+    "fair": "[for='fair']",
+    "needs_work": "[for='poor']",
+    "limited": "[for='zero']"
+  },
+  "card_options": {
+    "zero_interest": "[data-page-path='/zero-interest/']",
+    "balance_transfer": "[data-page-path='/balance-transfer/']"
+  }
+}
